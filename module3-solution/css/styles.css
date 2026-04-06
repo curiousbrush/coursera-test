@@ -1,7 +1,11 @@
-.navbar {
+.navbar,
+.navbar-default {
   background-color: #999999;
-  border-radius: 0;
   border: 2px solid black;
+  border-radius: 0;
+}
+.navbar-default .container-fluid {
+  background-color: #999999;
 }
 #menu {
   background-color: #ffffff;
