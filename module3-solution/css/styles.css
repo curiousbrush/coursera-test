@@ -7,6 +7,10 @@
 .navbar-default .container-fluid {
   background-color: #999999;
 }
+.navbar-brand {
+  color: #000000 !important;
+  font-weight: bold;
+}
 #menu {
   background-color: #ffffff;
 }
