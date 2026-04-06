@@ -42,4 +42,8 @@ h1 {
 #menu-section p {
   margin-bottom: 15px;
 }
-
+@media (min-width: 768px) {
+  #menu {
+    display: none !important;
+  }
+}
