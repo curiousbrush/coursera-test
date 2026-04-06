@@ -16,7 +16,7 @@
   font-weight: bold;
 }
 #menu {
-  background-color: #999999;
+  background-color: #ffffff !important;
 }
 h1 {
   margin-bottom: 30px;
@@ -27,13 +27,18 @@ h1 {
 }
 
 #menu li {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid black;
+}
+#menu li a {
+  color: #000000 !important;
+  font-weight: bold;
+  font-size: 1.2em;
 }
 #menu-section {
   background-color: #999999;
   border: 2px solid black;
   padding: 20px;
-  height: 1000px;
+  min-height: 1000px;
 }
 #menu-section h2 {
   font-weight: bold;
@@ -47,3 +52,4 @@ h1 {
     display: none !important;
   }
 }
+
